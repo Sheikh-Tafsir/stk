@@ -1,0 +1,34 @@
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .loading_spinner {
+    /* border: 0.4vw solid rgba(0, 0, 0, 0.3);
+    border-left-color: #7986cb; */
+    border: 0.4vw solid rgb(255,255,255,0.3);
+    border-left-color: rgb(255,255,255,0.8);
+    border-radius: 50%;
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    animation: spin 1s linear infinite;
+  }
+  .loading_spinner_page{
+    /* border: 0.4vw solid rgba(0, 0, 0, 0.3);
+    border-left-color: #7986cb; */
+    border: 0.4vw solid rgb(255,255,255,0.3);
+    border-left-color: rgb(255,255,255,0.8);
+    border-radius: 50%;
+    height: 4vw;
+    aspect-ratio: 1 / 1;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
